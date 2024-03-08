@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: addressbook
-        image: anandr177/addressbook:IMAGE_NUMBER
+        image: anandr177/addressbook:${BUILD_NUMBER}
         ports:
         - containerPort: 8080
 
