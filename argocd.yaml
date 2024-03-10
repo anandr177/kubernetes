@@ -9,6 +9,8 @@ spec:
   source:
     repoURL: https://github.com/anandr177/kubernetes.git
     targetRevision: HEAD
+    directory:
+      include: '*.yaml'
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
